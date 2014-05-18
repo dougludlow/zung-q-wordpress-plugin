@@ -47,7 +47,7 @@
                 &nbsp;&nbsp;
                 <a ng-href="{{mailto()}}" ng-show="checks === survey.length" class="send btn btn-xs btn-primary">
                     <span class="glyphicon glyphicon-envelope"></span>
-                    Send Score
+                    ShareS Score
                 </a>
             </p>
         </div>
