@@ -1,6 +1,7 @@
 <div ng-app="ZungApp" ng-controller="ZungController" ng-cloak="" class="zung ng-cloak">
     <style scoped="scoped">
-        @import url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css')
+        @import url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css');
+        @import url('<?php echo ZUNG__PLUGIN_URL; ?>styles/zung.css');
     </style>
     <table class="table table-striped table-hover table-responsive">
         <thead>

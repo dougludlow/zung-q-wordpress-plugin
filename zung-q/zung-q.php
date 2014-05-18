@@ -36,8 +36,6 @@ add_shortcode( 'zung', 'zung' );
 //[zung]
 function zung( $atts ){
 
-    wp_enqueue_style( 'zung-styles', ZUNG__PLUGIN_URL . 'styles/zung.css' );
-
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'bootstrap', '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.js' );
     wp_enqueue_script( 'angular', '//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.js' );
