@@ -1,44 +1,47 @@
 .zung thead tr {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .zung .response {
-  text-align: center;
+    text-align: center;
 }
 
 .zung .badge {
-  transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .zung .send {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 .badge-success {
-  background: #5cb85c;
+    background: #5cb85c;
 }
 
 .badge-warning {
-  background: #f0ad4e;
+    background: #f0ad4e;
 }
 
 .badge-caution {
-  background: #e5804f;
+    background: #e5804f;
 }
 
 .badge-danger {
-  background: #d9534f;
+    background: #d9534f;
 }
 
 .zung {
-    opacity:  1;
+    opacity: 1;
     -webkit-transition: opacity .5s;
     -moz-transition: opacity .5s;
     -o-transition: opacity .5s;
     transition: opacity .5s;
 }
 
-.zung.ng-cloak {
-    display: block !important;
-    opacity: 0;
-}
+    .zung.ng-cloak {
+        display: block !important;
+        opacity: 0;
+    }
