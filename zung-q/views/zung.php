@@ -2,9 +2,6 @@
     <style scoped="scoped">
         @import url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css')
     </style>
-    <div class="page-header">
-        <h1>Zung Self-Rating Depression Scale</h1>
-    </div>
     <table class="table table-striped table-hover table-responsive">
         <thead>
             <tr>
