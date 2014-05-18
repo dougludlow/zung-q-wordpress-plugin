@@ -1,4 +1,7 @@
 <div ng-app="ZungApp" ng-controller="ZungController" ng-cloak="" class="zung ng-cloak">
+    <style scoped="scoped">
+        @import url('//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css')
+    </style>
     <div class="page-header">
         <h1>Zung Self-Rating Depression Scale</h1>
     </div>

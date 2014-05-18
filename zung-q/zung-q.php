@@ -36,16 +36,16 @@ add_shortcode( 'zung', 'zung' );
 //[zung]
 function zung( $atts ){
 
-    wp_enqueue_style( 'bootstrap', '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css' );
     wp_enqueue_style( 'zung-styles', ZUNG__PLUGIN_URL . 'styles/zung.css' );
 
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'bootstrap', '//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.js' );
     wp_enqueue_script( 'angular', '//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.js' );
     wp_enqueue_script( 'jquery.floatThead-slim', 'http://cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.7/jquery.floatThead-slim.js');
+    wp_enqueue_script( 'scoped', ZUNG__PLUGIN_URL . 'scripts/scoped.js');
     wp_enqueue_script( 'zung-script', ZUNG__PLUGIN_URL . 'scripts/zung.js' );
 
     ob_start();
-	include ZUNG__PLUGIN_DIR . 'views/zung.php';
+    include ZUNG__PLUGIN_DIR . 'views/zung.php';
     return ob_get_clean();
 }
