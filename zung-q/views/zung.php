@@ -42,7 +42,6 @@
                 <strong>{{score()}}</strong>
                 &nbsp;
                 <span ng-class="range().stateClass" class="badge">
-                    <span ng-class="range().iconClass" class="glyphicon"></span>
                     {{range().description}}
                 </span>
                 &nbsp;&nbsp;

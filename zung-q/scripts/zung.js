@@ -84,22 +84,10 @@
           ];
 
           $scope.ranges = [
-            {
-                lower: 0, upper: 44, description: 'Normal Range',
-                stateClass: 'badge-success', iconClass: 'glyphicon-thumbs-up'
-            },
-            {
-                lower: 45, upper: 59, description: 'Mildly Depressed',
-                stateClass: 'badge-warning', iconClass: 'glyphicon-info-sign'
-            },
-            {
-                lower: 60, upper: 69, description: 'Moderately Depressed',
-                stateClass: 'badge-caution', iconClass: 'glyphicon-caution-sign'
-            },
-            {
-                lower: 70, upper: 80, description: 'Severely Depressed',
-                stateClass: 'badge-danger', iconClass: 'glyphicon-exclamation-sign'
-            },
+            { lower: 0, upper: 44, description: 'Normal Range', stateClass: 'badge-success', iconClass: 'glyphicon-thumbs-up' },
+            { lower: 45, upper: 59, description: 'Mildly Depressed', stateClass: 'badge-warning', iconClass: 'glyphicon-info-sign' },
+            { lower: 60, upper: 69, description: 'Moderately Depressed', stateClass: 'badge-caution', iconClass: 'glyphicon-caution-sign' },
+            { lower: 70, upper: 80, description: 'Severely Depressed', stateClass: 'badge-danger', iconClass: 'glyphicon-exclamation-sign' },
           ];
 
           $scope.scores = {};
